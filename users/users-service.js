@@ -3,7 +3,7 @@ module.exports = {
 };
 
 function isValid(user) {
-  return Boolen(
+  return Boolean(
     user.username && user.password && typeof user.password === "string"
   );
 }
